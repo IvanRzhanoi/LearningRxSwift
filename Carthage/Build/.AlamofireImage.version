@@ -1,0 +1,9 @@
+{
+  "commitish" : "3.4.1",
+  "iOS" : [
+    {
+      "name" : "AlamofireImage",
+      "hash" : "06717a08e510faa82675a66bd2a5982ca02162e6d963465f898dd3811c761fce"
+    }
+  ]
+}

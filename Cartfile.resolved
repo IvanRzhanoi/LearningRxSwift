@@ -1,0 +1,7 @@
+github "Alamofire/Alamofire" "4.7.3"
+github "Alamofire/AlamofireImage" "3.4.1"
+github "Molbie/Outlaw" "1.1.0"
+github "ReactiveX/RxSwift" "4.4.0"
+github "RxSwiftCommunity/RxAlamofire" "f8b0b00ad6253dbf9c1deb0e77bc3fb1b5178ec0"
+github "RxSwiftCommunity/RxDataSources" "3.1.0"
+github "antitypical/Result" "3.2.4"
