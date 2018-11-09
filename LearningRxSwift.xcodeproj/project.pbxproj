@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2258E4922195CCC600B7D7F4 /* SimpleRx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2258E4912195CCC600B7D7F4 /* SimpleRx.swift */; };
+		2258E4942195DEFC00B7D7F4 /* TraitsRx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2258E4932195DEFC00B7D7F4 /* TraitsRx.swift */; };
 		A94E70B31FE7240900CE0773 /* CustomError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94E70B21FE7240900CE0773 /* CustomError.swift */; };
 		A963E9241FD769F00054973B /* PersistanceLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A963E9231FD769F00054973B /* PersistanceLayer.swift */; };
 		A963E9481FD76AEB0054973B /* DatabaseExample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A963E9461FD76AEB0054973B /* DatabaseExample.xcdatamodeld */; };
@@ -87,6 +89,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2258E4912195CCC600B7D7F4 /* SimpleRx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleRx.swift; sourceTree = "<group>"; };
+		2258E4932195DEFC00B7D7F4 /* TraitsRx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TraitsRx.swift; sourceTree = "<group>"; };
 		A94E70B21FE7240900CE0773 /* CustomError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomError.swift; sourceTree = "<group>"; };
 		A963E9231FD769F00054973B /* PersistanceLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistanceLayer.swift; sourceTree = "<group>"; };
 		A963E9471FD76AEB0054973B /* DatabaseExample.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DatabaseExample.xcdatamodel; sourceTree = "<group>"; };
@@ -158,6 +162,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2258E4902195CCA900B7D7F4 /* SimpleExamples */ = {
+			isa = PBXGroup;
+			children = (
+				2258E4932195DEFC00B7D7F4 /* TraitsRx.swift */,
+				2258E4912195CCC600B7D7F4 /* SimpleRx.swift */,
+			);
+			path = SimpleExamples;
+			sourceTree = "<group>";
+		};
 		A963E9491FD76BA20054973B /* DatabaseExample */ = {
 			isa = PBXGroup;
 			children = (
@@ -198,6 +211,7 @@
 		A99EA80D1FAA918E004DF683 /* LearningRxSwift */ = {
 			isa = PBXGroup;
 			children = (
+				2258E4902195CCA900B7D7F4 /* SimpleExamples */,
 				A9B063F81FC62E4D008450AA /* ModelLayer */,
 				A963E9491FD76BA20054973B /* DatabaseExample */,
 				A9B063EF1FC62911008450AA /* NetworkExample */,
@@ -401,6 +415,7 @@
 			files = (
 				A9F247441FC64E1D00874BF3 /* TranslationLayer.swift in Sources */,
 				A9B063F51FC62E00008450AA /* NetworkExamplePresenter.swift in Sources */,
+				2258E4942195DEFC00B7D7F4 /* TraitsRx.swift in Sources */,
 				A9FD40881FE712FB00024291 /* Friend.swift in Sources */,
 				A9F6CBB01FC5F5F40032C949 /* ReactiveUIViewController.swift in Sources */,
 				A9B064011FC630EE008450AA /* NetworkExampleTableViewCell.swift in Sources */,
@@ -419,6 +434,7 @@
 				A963E94C1FD76BF70054973B /* DatabaseExampleViewController.swift in Sources */,
 				A99EA85C1FAB90EC004DF683 /* TasksExamplePresenter.swift in Sources */,
 				A9B063F71FC62E1F008450AA /* Message.swift in Sources */,
+				2258E4922195CCC600B7D7F4 /* SimpleRx.swift in Sources */,
 				A99AEEA71FE19CA9000BC6C8 /* PhotoDescriptionTranslation.swift in Sources */,
 				A9B063F21FC62C51008450AA /* NetworkExampleViewController.swift in Sources */,
 				A9FD408A1FE713CF00024291 /* Posting.swift in Sources */,
